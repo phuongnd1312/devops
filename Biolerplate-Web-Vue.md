@@ -10,7 +10,7 @@
 - $ which vue
 - $ vue --version
   
-# Create new project
+# Create new projectgit a
 - $ vue create web-app-vue
   ~~~
     Vue CLI v3.0.0-beta.15

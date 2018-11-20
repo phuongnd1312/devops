@@ -8,6 +8,14 @@
   </div>
 </template>
 
+<script>
+import './assets/scss/skin-default.scss';
+export default {
+  
+}
+</script>
+
+
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
