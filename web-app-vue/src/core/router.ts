@@ -1,11 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Index from "./views/Index.vue";
-import Landing from "./views/Landing.vue";
-import Login from "./views/Login.vue";
-import Profile from "./views/Profile.vue";
-import MainNavbar from "./layout/MainNavbar.vue";
-import MainFooter from "./layout/MainFooter.vue";
+import Index from "../views/Index.vue";
+import Landing from "../views/Landing.vue";
+import Login from "../views/Login.vue";
+import Profile from "../views/Profile.vue";
+import MainNavbar from "../layout/MainNavbar.vue";
+import MainFooter from "../layout/MainFooter.vue";
 
 Vue.use(Router);
 

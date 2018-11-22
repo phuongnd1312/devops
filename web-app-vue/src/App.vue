@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import './assets/scss/skin-default.scss';
+// import './assets/scss/skin-default.scss';
 export default {
   
 }
