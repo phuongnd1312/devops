@@ -3,8 +3,7 @@
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="exampleInputGroup1"
                     label="Email address:"
-                    label-for="exampleInput1"
-                    description="We'll never share your email with anyone else.">
+                    label-for="exampleInput1">
         <b-form-input id="exampleInput1"
                       type="email"
                       v-model="form.email"

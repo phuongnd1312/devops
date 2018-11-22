@@ -1,0 +1,9 @@
+input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: lightgrey
+}
+
+input:focus {
+    border-color: gray
+}
