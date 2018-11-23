@@ -3,14 +3,32 @@ import Router from "vue-router";
 import Index from "../views/Index.vue";
 import Landing from "../views/Landing.vue";
 import Login from "../views/Login.vue";
+import Register from "../views/register/index.vue";
+import Patient from "../views/patient/index.vue";
 import Profile from "../views/Profile.vue";
-import MainNavbar from "../layout/MainNavbar.vue";
-import MainFooter from "../layout/MainFooter.vue";
+import MainNavbar from "./layout/MainNavbar.vue";
+import MainFooter from "./layout/MainFooter.vue";
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
+    {
+      path: "/register",
+      name: "Register",
+      components: { default: Register, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+      }
+    },
+    {
+      path: "/patient",
+      name: "Patient",
+      components: { default: Patient, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+      }
+    },
     {
       path: "/",
       name: "index",

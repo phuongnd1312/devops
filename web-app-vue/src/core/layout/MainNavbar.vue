@@ -124,7 +124,7 @@ function resizeThrottler(actualResizeHandler) {
   }
 }
 
-import MobileMenu from "@/layout/MobileMenu";
+import MobileMenu from "./MobileMenu";
 export default {
   components: {
     MobileMenu
