@@ -1,24 +1,24 @@
 import Vue from "vue";
-import App from "./App.vue";
+
+/** Core */
+import App from "./core/App.vue";
 import router from "./core/router";
 import store from "./core/store";
+import Helper from "./core/helper";
+
+/** Node Modules */
 import BootstrapVue from 'bootstrap-vue';
-import  MaterialKit   from "./core/plugins/material-kit";
+
+
 
 Vue.config.productionTip = false;
 
 Vue.use(BootstrapVue);
-Vue.use(MaterialKit);
-
-const NavbarStore = {
-  showNavbar: false
-};
+Vue.use(Helper);
 
 Vue.mixin({
   data() {
-    return {
-      NavbarStore
-    };
+    return {};
   }
 });
 
