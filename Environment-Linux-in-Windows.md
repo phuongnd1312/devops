@@ -42,8 +42,8 @@ Upgrade Ubuntu:
   
   `source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
   
- - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
- - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+ - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
  - Input -> source ~/.zshrc
 
 
