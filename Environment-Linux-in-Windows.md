@@ -38,9 +38,9 @@ Upgrade Ubuntu:
 - Input -> nano ~/.zshrc
 - Check ->
 
-  `source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh`
+  `source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh`
   
-  `source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+  `source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
   
  - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-autosuggestions
  - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
@@ -53,6 +53,7 @@ Setup ZSH:
 - Input -> echo "bash -c zsh" >> ~/.bashrc
 
 Setup Oh My ZSH:
+- Input -> source ~/.oh-my-zsh/tools/uninstall.sh
 - Input -> sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 - Input -> nano ~/.zshrc
 - Edit -> to 	ZSH_THEME="bira"
