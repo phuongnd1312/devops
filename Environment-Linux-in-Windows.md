@@ -38,9 +38,12 @@ Upgrade Ubuntu:
 - Input -> nano ~/.zshrc
 - Check ->
 
-  `source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh`
-  
-  `source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+  source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+  source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+    export p=/mnt/d/Projects
+    export ltvc=/mnt/d/Projects/ltv-coffee/packages/client
+    export ltvs=/mnt/d/Projects/ltv-coffee/packages/server
   
  - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-autosuggestions
  - sudo chmod -R 755 /home/[input-user]/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
