@@ -74,10 +74,6 @@ echo "Installing drawio ... "
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 code --install-extension hediet.vscode-drawio
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-echo "Installing beautify ... "
-echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-code --install-extension HookyQR.beautify
-echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 echo "Installing node-module-intellisense ... "
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 code --install-extension leizongmin.node-module-intellisense
@@ -93,10 +89,6 @@ echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 echo "Installing streetsidesoftware.code-spell-checker ... "
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 code --install-extension streetsidesoftware.code-spell-checker
-echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-echo "Installing TabNine ... "
-echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
-code --install-extension TabNine.tabnine-vscode
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
 echo "Installing Vscode Intellicode ... "
 echo "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -"
