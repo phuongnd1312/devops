@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
-    "node-sass": "^4.10.0",
+    "node-sass": "^7.0.0",
     "nouislider": "11.1.0",
     "sass-loader": "^7.1.0",
     "v-tooltip": "2.0.0-rc.33",
